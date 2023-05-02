@@ -9,7 +9,7 @@ int main(int argc, char *argv[]) {
 
   if(argc != 3) {
     std::cerr << "Error: Missing arguments.\n"
-      << "Call like so: ./web_getter www.google.com / \n";
+      << "Call like so: ./web_getter www.example.com / \n";
     return -1;
   }
 

@@ -5,5 +5,5 @@ mkdir build
 cd build
 cmake ..
 make -j8
-./https_client de.wikipedia.org wiki/Wikipedia:Hauptseite
+./web_getter www.example.com /
 ```
